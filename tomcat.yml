@@ -1,7 +1,7 @@
 ---
 - name: install tomcat server
-  hosts: all
-  become: true
+  hosts: tomcatvm
+  
 
   tasks:
   - name: Install OpenJDK
